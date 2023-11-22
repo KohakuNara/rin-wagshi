@@ -1,0 +1,273 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0%;
+}
+
+li{
+    list-style: none;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Merriweather', serif;;
+}
+
+img{
+    vertical-align: bottom;
+}
+
+.conatiner{
+    /* display: flex; */
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 80px;
+    background-color: #0D0015;
+}
+
+.header-tab{
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+
+.top-button:hover{
+    color: gray;
+}
+
+.about-button:hover{
+    color: gray;
+}
+
+.menu-button:hover{
+    color: gray;
+}
+
+.access-button:hover{
+    color: gray;
+}
+
+.title{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: #0D0015;
+    display: flex;
+}
+
+.about-text-box{
+    width: 50%;
+    height: 100%;
+}
+
+.about-text-p-box{
+    
+}
+
+.about-text-p{
+    color: #fff;
+    line-height: 2rem;
+    font-family: 'Merriweather', serif;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+
+.about-text-img{
+    display: flex;
+    height: 50%;
+}
+
+.about-text-img-p{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    padding-top: 110px;
+}
+
+.about-img-box{
+    width: 50%;
+    height: 100%;
+}
+
+.about-img{
+    padding-top: 150px;
+}
+
+.Menu{
+    width: 100%;
+    height: 100vh;
+    background-color: #0D0015;
+    border-top: #B68D4C solid;
+    display: flex;
+}
+
+.Menu-title{
+    width: 25%;
+    height: 100%;
+}
+
+.Menu-list{
+    width: 25%;
+    padding-top: 200px;
+    color: #fff;
+}
+
+.Menu-list-2{
+    width: 25%;
+    padding-top: 200px;
+    color: #fff;
+}
+
+.Menu-list-3{
+    width: 25%;
+    padding-top: 200px;
+    color: #fff;
+}
+
+.Menu-title-block{
+    width: 200px;
+    height: 200px;
+    background-color: #0D0015;
+    border: #B68D4C solid;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.Menu-title-p{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.Access{
+    width: 100%;
+    height: 100vh;
+    background-color: #0D0015;
+    border-top: #B68D4C solid;
+    display: flex;
+}
+
+.Access-title{
+    width: 25%;
+    height: 100%;
+}
+
+.Access-title-block{
+    width: 200px;
+    height: 200px;
+    background-color: #0D0015;
+    border: #B68D4C solid;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.Access-title-p{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.Access-text{
+    width: 37.5%;
+    height: 100%;
+}
+
+.Access-text-p{
+    margin: 0%;
+    padding-top: 200px;
+    color: #fff;
+    line-height: 2rem;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+
+.Access-map{
+    width: 37.5%;
+    height: 100%;
+}
+
+.Access-map-in{
+    padding-top: 70px;
+    width: 95%;
+    height: 80%;
+}
+
+.copylight-box{
+    width: 100%;
+    height: 60px;
+    background-color: #800000;
+    /* background-color: #0D0015; */
+    /* border-top: #B68D4C solid; */
+}
+
+.copylight-p{
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #fff;
+    margin: 0%;
+}
+
+.page-top{
+    display: block;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    background: #FFF;
+    border: 1px solid #999;
+    padding-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 85%;
+    text-decoration: none;
+    color: #333;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+}
+
+.page-top::before{
+    content: "";
+    display: block;
+    border-top: 2px solid #333;
+    border-right: 2px solid #333;
+    width: 25%;
+    height: 25%;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.page-top:hover{
+    opacity: 1;
+}
+
+.page-top-p{
+    margin: 0%;
+}
